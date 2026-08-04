@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{SEO_TITLE}}</title>
+  <meta name="description" content="{{SEO_DESCRIPTION}}">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="{{APP_ACCENT_DARK}}">
+  <link rel="canonical" href="https://www.kenseicraft.com/{{APP_SLUG}}/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{APP_NAME}} by Kensei Craft">
+  <meta property="og:title" content="{{SEO_TITLE}}">
+  <meta property="og:description" content="{{SEO_DESCRIPTION}}">
+  <meta property="og:url" content="https://www.kenseicraft.com/{{APP_SLUG}}/">
+  <meta property="og:image" content="{{SOCIAL_IMAGE_URL}}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="{{SOCIAL_IMAGE_URL}}">
+  <link rel="icon" type="image/png" href="{{APP_ICON_PATH}}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/app-page.css?v=20260802-3">
+</head>
+<body class="app-site" style="--app-accent:{{APP_ACCENT}}; --app-accent-dark:{{APP_ACCENT_DARK}}; --app-accent-soft:{{APP_ACCENT_SOFT}}">
+  <nav class="app-nav" aria-label="{{APP_NAME}} navigation">
+    <div class="app-shell app-nav-inner">
+      <a class="app-brand" href="../{{APP_SLUG}}/index.html">
+        <img src="{{APP_ICON_PATH}}" alt="" width="42" height="42">
+        <span><strong>{{APP_NAME}}</strong><small>{{APP_CATEGORY}}</small></span>
+      </a>
+      <div class="app-nav-links">
+        <a href="../index.html">Kensei Craft</a>
+        <a href="#features">Features</a>
+        <a href="#how">How it works</a>
+        <a href="#faq">FAQ</a>
+        <a class="app-button app-button-primary app-nav-cta" href="{{APP_STORE_URL}}">Get the app ↗</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- 1. Hero: one promise, two actions, three proof points -->
+    <header class="app-hero">
+      <div class="app-shell app-hero-grid">
+        <div class="app-hero-copy">
+          <img class="app-hero-icon" src="{{APP_ICON_PATH}}" alt="{{APP_NAME}} app icon" width="76" height="76">
+          <p class="app-eyebrow">{{APP_CATEGORY}}</p>
+          <h1>{{HERO_HEADLINE}} <em>{{HERO_HIGHLIGHT}}</em></h1>
+          <p class="app-lede">{{HERO_DESCRIPTION}}</p>
+          <div class="app-actions">
+            <a class="app-button app-button-primary" href="{{APP_STORE_URL}}">Download on the App Store ↗</a>
+            <a class="app-button" href="#how">See how it works ↓</a>
+          </div>
+          <div class="app-proof">
+            <div><strong>{{PROOF_1_VALUE}}</strong><span>{{PROOF_1_LABEL}}</span></div>
+            <div><strong>{{PROOF_2_VALUE}}</strong><span>{{PROOF_2_LABEL}}</span></div>
+            <div><strong>{{PROOF_3_VALUE}}</strong><span>{{PROOF_3_LABEL}}</span></div>
+          </div>
+        </div>
+        <div class="app-hero-visual">
+          <div class="app-float app-float-one"><strong>{{FLOAT_1_TITLE}}</strong><span>{{FLOAT_1_COPY}}</span></div>
+          <div class="app-device"><img src="{{PRIMARY_SCREENSHOT}}" alt="{{PRIMARY_SCREENSHOT_ALT}}" fetchpriority="high"></div>
+          <div class="app-float app-float-two"><strong>{{FLOAT_2_TITLE}}</strong><span>{{FLOAT_2_COPY}}</span></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- 2. Benefits: always keep this to three cards -->
+    <section class="app-section" id="features">
+      <div class="app-shell">
+        <div class="app-section-head"><p class="app-eyebrow">What it does</p><h2>{{BENEFITS_HEADLINE}}</h2><p>{{BENEFITS_DESCRIPTION}}</p></div>
+        <div class="app-benefits">
+          <article class="app-benefit"><span class="app-benefit-number">01</span><h3>{{BENEFIT_1_TITLE}}</h3><p>{{BENEFIT_1_COPY}}</p></article>
+          <article class="app-benefit"><span class="app-benefit-number">02</span><h3>{{BENEFIT_2_TITLE}}</h3><p>{{BENEFIT_2_COPY}}</p></article>
+          <article class="app-benefit"><span class="app-benefit-number">03</span><h3>{{BENEFIT_3_TITLE}}</h3><p>{{BENEFIT_3_COPY}}</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Product tour: three screenshots and three steps -->
+    <section class="app-section app-section-soft" id="how">
+      <div class="app-shell app-tour">
+        <div class="app-gallery app-gallery-three">
+          <figure><img src="{{SCREENSHOT_1}}" alt="{{SCREENSHOT_1_ALT}}" loading="lazy"></figure>
+          <figure><img src="{{SCREENSHOT_2}}" alt="{{SCREENSHOT_2_ALT}}" loading="lazy"></figure>
+          <figure><img src="{{SCREENSHOT_3}}" alt="{{SCREENSHOT_3_ALT}}" loading="lazy"></figure>
+        </div>
+        <div class="app-tour-copy">
+          <p class="app-eyebrow">How it works</p><h2>{{TOUR_HEADLINE}}</h2><p>{{TOUR_DESCRIPTION}}</p>
+          <div class="app-steps">
+            <div class="app-step"><span>01</span><div><strong>{{STEP_1_TITLE}}</strong><p>{{STEP_1_COPY}}</p></div></div>
+            <div class="app-step"><span>02</span><div><strong>{{STEP_2_TITLE}}</strong><p>{{STEP_2_COPY}}</p></div></div>
+            <div class="app-step"><span>03</span><div><strong>{{STEP_3_TITLE}}</strong><p>{{STEP_3_COPY}}</p></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Optional SEO guide grid goes here when an app has supporting content. -->
+
+    <!-- 5. FAQ: keep visible answers aligned with FAQPage structured data. -->
+    <section class="app-section app-section-soft" id="faq">
+      <div class="app-shell">
+        <div class="app-section-head"><p class="app-eyebrow">Frequently asked</p><h2>{{FAQ_HEADLINE}}</h2></div>
+        <div class="app-faq-list">
+          <details open><summary>{{QUESTION_1}}</summary><div class="app-faq-answer"><p>{{ANSWER_1}}</p></div></details>
+          <details><summary>{{QUESTION_2}}</summary><div class="app-faq-answer"><p>{{ANSWER_2}}</p></div></details>
+          <details><summary>{{QUESTION_3}}</summary><div class="app-faq-answer"><p>{{ANSWER_3}}</p></div></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Final conversion block -->
+    <section class="app-cta-wrap">
+      <div class="app-cta"><h2>{{CTA_HEADLINE}}</h2><div class="app-cta-copy"><p>{{CTA_COPY}}</p><a class="app-button" href="{{APP_STORE_URL}}">Download {{APP_NAME}} ↗</a></div></div>
+    </section>
+  </main>
+
+  <footer class="app-footer">
+    <div class="app-shell">
+      <div class="app-footer-grid">
+        <div><div class="app-footer-brand"><img src="{{APP_ICON_PATH}}" alt=""><strong>{{APP_NAME}}</strong></div><p>{{APP_SHORT_DESCRIPTION}}</p></div>
+        <div><h3>Explore</h3><nav><a href="#features">Features</a><a href="#how">How it works</a><a href="#faq">FAQ</a></nav></div>
+        <div><h3>Kensei Craft</h3><nav><a href="../index.html">Studio home</a><a href="../contact.html">Support</a><a href="../privacyPolicy.html">Privacy</a><a href="{{TERMS_URL}}">Terms</a></nav></div>
+      </div>
+      <div class="app-footer-bottom"><span>© 2026 {{APP_NAME}} · Kensei Craft</span><span>{{LEGAL_DISCLAIMER}}</span></div>
+    </div>
+  </footer>
+  <script src="../assets/motion.js" defer></script>
+</body>
+</html>
