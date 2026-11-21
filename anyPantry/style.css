@@ -1,0 +1,17 @@
+body.app-site { --app-accent:#416b32; --app-accent-dark:#20351b; --app-accent-soft:#e7f3dc; --studio-ink:#20351b; --studio-ink-soft:#40533b; --studio-muted:#62705c; --studio-paper:#fafbf3; --studio-line:#dde5d5; }
+.pantry-mark { display:grid; place-items:center; width:42px; height:42px; border-radius:12px; background:#20351b; color:#e7f3dc; font-weight:800; }
+.app-hero h1, .app-section h2, .app-cta h2 { font-family:Georgia,serif; letter-spacing:-.045em; }
+.app-section-soft { background:#edf4e5; }
+.app-footer { background:#20351b; }
+.pantry-visual { min-height:0; background:#e7f3dc; }
+.pantry-visual::before { display:none; }
+.pantry-visual > img { width:100%; height:auto; }
+.pantry-gallery { grid-template-columns:repeat(5,minmax(0,1fr)); }
+.pantry-gallery img { aspect-ratio:1206 / 2622; object-fit:contain; }
+.pantry-legal { max-width:900px; padding-top:72px; padding-bottom:80px; }
+.pantry-legal h1 { font-family:Georgia,serif; font-size:clamp(2.8rem,7vw,5rem); }
+.pantry-legal section { padding:24px 0; border-top:1px solid var(--studio-line); }
+.pantry-legal h2 { font-size:1.5rem; letter-spacing:-.025em; line-height:1.3; margin-bottom:16px; }
+.pantry-legal p { margin-bottom:0; }
+.pantry-legal a { text-underline-offset:3px; }
+a:focus-visible, summary:focus-visible { outline:3px solid #416b32; outline-offset:5px; }

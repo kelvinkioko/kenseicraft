@@ -1,0 +1,10 @@
+.discovery-main { padding-top: 3rem; }
+.discovery-header { padding-top: 3rem; padding-bottom: 2rem; }
+.discovery-header h1, .discovery-article h1 { max-width: 54rem; font-size: clamp(2.1rem, 5vw, 4rem); line-height: 1.15; }
+.discovery-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(min(100%,19rem),1fr)); gap: 1.5rem; }
+.discovery-grid h2 { font-size: 1.4rem; }
+.discovery-article { max-width: 52rem; padding-top: 3rem; padding-bottom: 4rem; }
+.discovery-article h2 { margin-top: 2.5rem; }
+.discovery-steps { padding-left: 1.6rem; max-width: 50rem; }
+.discovery-steps li { padding: .7rem 0 .7rem .5rem; }
+.discovery-main a:not(.app-button) { text-decoration: underline; text-underline-offset: .2em; }

@@ -1,0 +1,229 @@
+[
+  {
+    "slug": "curio",
+    "name": "Curio \u2014 Antique Identifier: Curator",
+    "category": "ReferenceApplication",
+    "description": "Curio identifies antiques, vintage items and collectibles from a photo and provides estimated value, history, rarity and authenticity guidance.",
+    "features": [
+      "Identify instantly",
+      "Understand the value",
+      "Build a collection"
+    ],
+    "download": "https://apps.apple.com/us/app/antique-identifier-curator/id6769663482",
+    "existing": true
+  },
+  {
+    "slug": "cardValueScanner",
+    "name": "Card value scanner - MonValue",
+    "category": "UtilitiesApplication",
+    "description": "Photograph a trading card to identify it, check current market estimates, follow price movement and keep your collection organised in one portfolio.",
+    "features": [
+      "Identify cards",
+      "Follow the market",
+      "Know your portfolio"
+    ],
+    "download": "https://apps.apple.com/us/app/card-value-scanner-monvalue/id6748882633",
+    "existing": true
+  },
+  {
+    "slug": "blueMic",
+    "name": "Bluetooth Speaker Mic: BlueMic",
+    "category": "UtilitiesApplication",
+    "description": "Connect to a Bluetooth speaker or headphones, speak through your iPhone in real time and shape the sound with voice filters, echo control and custom mic styles.",
+    "features": [
+      "Speak through speakers",
+      "Shape your voice",
+      "Tune the experience"
+    ],
+    "download": "https://apps.apple.com/us/app/bluetooth-speaker-mic-bluemic/id6748157959",
+    "existing": true
+  },
+  {
+    "slug": "coinScope",
+    "name": "Coin Identifier: CoinScope",
+    "category": "ReferenceApplication",
+    "description": "Photograph a coin to identify its country, year, denomination and composition, explore estimated value and rarity, and keep your finds in a digital collection.",
+    "features": [
+      "Identify the coin",
+      "Understand the details",
+      "Build your collection"
+    ],
+    "download": "https://apps.apple.com/us/app/coin-identifier-coinscope/id6747888768",
+    "existing": true
+  },
+  {
+    "slug": "cleanKit",
+    "name": "Storage Cleaner: CleanKit",
+    "category": "UtilitiesApplication",
+    "description": "Find duplicate photos, review large videos, swipe through clutter and clean up contacts and calendar events with a clear, review-first workflow.",
+    "features": [
+      "Find photo clutter",
+      "Handle heavy media",
+      "Tidy the details"
+    ],
+    "download": "https://apps.apple.com/us/app/storage-cleaner-cleankit/id6739007055",
+    "existing": true
+  },
+  {
+    "slug": "videocompressor",
+    "name": "Video Compressor: VideoShrink",
+    "category": "UtilitiesApplication",
+    "description": "Compress videos by up to 80%, tune resolution, frame rate and bitrate, and see the expected storage savings before you save or share the result.",
+    "features": [
+      "Compress with confidence",
+      "Tune every export",
+      "Save and share"
+    ],
+    "download": "https://apps.apple.com/us/app/video-compressor-videoshrink/id6742753461",
+    "existing": true
+  },
+  {
+    "slug": "anyPantry",
+    "name": "Any Pantry",
+    "category": "LifestyleApplication",
+    "description": "Keep pantry items, quantities and storage locations together with shopping lists and recipes.",
+    "features": [
+      "Know what\u2019s at home",
+      "Shop with less stress",
+      "Make dinner feel easy"
+    ],
+    "download": null,
+    "existing": true
+  },
+  {
+    "slug": "birdBook",
+    "name": "Bird Book",
+    "category": "ReferenceApplication",
+    "description": "Build a birding collection, set spotting goals and explore species information.",
+    "features": [
+      "Build a personal bird collection",
+      "Explore species data, calls and behavior",
+      "Track spotting goals and achievements"
+    ],
+    "steps": [
+      "Record where and when you spotted the bird, its size, colors and behavior.",
+      "Compare species information and calls, checking several distinguishing features.",
+      "Save the sighting to your collection and review your spotting goals."
+    ],
+    "existing": false
+  },
+  {
+    "slug": "skedge",
+    "name": "Skedge",
+    "category": "ProductivityApplication",
+    "description": "Organize schedules, assignments, subtasks and reminders in one planner.",
+    "features": [
+      "Manage personal, school and work schedules",
+      "Track assignments and subtasks",
+      "Set reminders and review progress"
+    ],
+    "steps": [
+      "Add your fixed classes, work hours and appointments to a schedule.",
+      "Break assignments into subtasks and give each a deadline before the final due date.",
+      "Set reminders and review unfinished tasks regularly to adjust your plan."
+    ],
+    "existing": false
+  },
+  {
+    "slug": "devotion",
+    "name": "Daily Devotion",
+    "category": "LifestyleApplication",
+    "description": "Build a daily scripture, prayer and reflection routine with verses, guided prayer and reminders.",
+    "features": [
+      "Read daily scripture and browse the Bible",
+      "Use guided prayer and revisit prayer history",
+      "Save verses and set devotional reminders"
+    ],
+    "steps": [
+      "Choose a consistent time and read a short scripture passage in context.",
+      "Use a prayer prompt to reflect on the passage and record your prayer.",
+      "Save a meaningful verse and set a reminder for your next devotional time."
+    ],
+    "existing": false
+  },
+  {
+    "slug": "pdfscanner",
+    "name": "PDF Scanner",
+    "category": "ProductivityApplication",
+    "description": "Scan documents into PDFs, organize pages, merge files and share documents.",
+    "features": [
+      "Scan and manage PDF documents",
+      "Split, merge and rearrange pages",
+      "Password-protect, compress and share PDFs"
+    ],
+    "steps": [
+      "Place the document on a flat surface with even lighting and capture every page.",
+      "Review the scan for readable text, correct page order and missing edges before saving.",
+      "Merge or split pages as needed, then share the PDF and check that the recipient can open it."
+    ],
+    "existing": false
+  },
+  {
+    "slug": "pdfphoto",
+    "name": "PDF Photos",
+    "category": "ProductivityApplication",
+    "description": "Convert photos to PDF documents with custom layouts and paper sizes.",
+    "features": [
+      "Convert multiple photos into a PDF",
+      "Choose layouts and US, A4 or A3 paper sizes",
+      "Export and share photo documents"
+    ],
+    "steps": [
+      "Select the photos you want to include and put them in reading order.",
+      "Choose a paper size and layout, then check that each photo fits without cutting off important details.",
+      "Export the PDF, open it to inspect every page, and share the checked file."
+    ],
+    "existing": false
+  },
+  {
+    "slug": "beeflow",
+    "name": "BeeFlow",
+    "category": "ProductivityApplication",
+    "description": "Track work hours by client and project, review weekly activity and export reports.",
+    "features": [
+      "Log hours or use a clock-in timer",
+      "Organize time by client and project",
+      "Review activity history and export reports"
+    ],
+    "steps": [
+      "Create a client and project so each time entry has a clear purpose.",
+      "Start the timer when work begins or log hours with notes after each session.",
+      "Review the weekly breakdown, correct missed entries and export a report for your records."
+    ],
+    "existing": false
+  },
+  {
+    "slug": "gratitude",
+    "name": "Gratitude Journal",
+    "category": "LifestyleApplication",
+    "description": "Write three gratitude entries a day with prompts, mood tracking and reminders.",
+    "features": [
+      "Write three daily gratitude entries",
+      "Use prompts and record your mood",
+      "Review streaks and personal insights"
+    ],
+    "steps": [
+      "Pick a regular moment and write three specific things you appreciated today.",
+      "Use a prompt if you feel stuck, and add a mood tag to give the entry context.",
+      "Return to past entries and use reminders to maintain a routine that works for you."
+    ],
+    "existing": false
+  },
+  {
+    "slug": "invoiceMaker",
+    "name": "Invoice Maker and Receipt",
+    "category": "BusinessApplication",
+    "description": "Manage businesses and clients, create invoices and send them to customers.",
+    "features": [
+      "Manage multiple businesses",
+      "Keep client information together",
+      "Create, edit and send invoices"
+    ],
+    "steps": [
+      "Choose the business issuing the invoice and check the client contact details.",
+      "Create the invoice and review its amounts and description against the work agreed with the client.",
+      "Check the finished invoice before sending it, and keep a copy for your records."
+    ],
+    "existing": false
+  }
+]

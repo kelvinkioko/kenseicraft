@@ -16,6 +16,10 @@ const publicFiles = [
 
 const publicDirectories = [
   "assets",
+  "apps",
+  "guides",
+  "invoiceMaker",
+  "anyPantry",
   "beeflow",
   "birdBook",
   "blueMic",
